@@ -1,6 +1,4 @@
-Here’s your **exactly formatted README** in the style you originally provided, using `##` and `--` separators:
 
----
 
 # 🧠 Explain Like I’m Root
 
@@ -73,6 +71,3 @@ npm run dev
 * Local explanations work directly from the frontend.
 * You can add features like API key input or request limits later.
 
----
-
-Let me know if you want to add screenshots or a contribution guide!
