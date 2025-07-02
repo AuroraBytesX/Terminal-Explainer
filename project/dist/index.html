@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Explain Like I'm Root</title>
+  <link rel="stylesheet" crossorigin href="/assets/index-CtA6VjdK.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🧠 Explain Like I'm Root</h1>
+    <p>Paste a terminal command & get a hilarious explanation.</p>
+
+    <textarea id="commandInput" placeholder="e.g., chmod, ls, cp etc"></textarea>
+
+    <select id="modeSelect">
+      <option value="beginner">Beginner</option>
+      <option value="gpt">GPT</option>
+      <option value="chaos">Chaos</option>
+      <option value="grandma">Grandma</option>
+      <option value="pilot">Pilot</option>
+      <option value="shakespeare">Shakespeare</option>
+    </select>
+
+    <button id="explainButton">Explain It</button>
+    <button id="tweetButton">Tweet This</button>
+
+    <div id="loadingSpinner" style="display: none;">⏳ Loading...</div>
+    <div id="explanationText" class="output-box">Your explanation will appear here.</div>
+
+    <footer>
+      <a href="https://bolt.new" target="_blank">
+        <img src="https://bolt.new/bolt-badge.svg" alt="Built with Bolt" class="bolt-badge">
+      </a>
+    </footer>
+  </div>
+
+  <!-- Load config.js before main.js -->
+  <script src="config.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
