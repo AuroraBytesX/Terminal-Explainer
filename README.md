@@ -54,6 +54,27 @@ This app makes terminal learning **fun, beginner-friendly, and shareable.**
 * Frontend: Bolt.new
 * Deployment: Netlify
 
+Built With:
+
+Frontend:
+•HTML, CSS (style.css), JavaScript (main.js)
+•Vite – for fast frontend bundling and development
+•Netlify – for frontend hosting and deployment
+
+Backend:
+•Node.js (index.js)
+•package.json – for managing dependencies
+•Hosted on Render – to securely handle OpenRouter API requests
+
+API Integration:
+•OpenRouter API – for GPT-powered terminal command explanations (via backend)
+
+Others:
+•.gitignore, package-lock.json – for version control and dependency locking
+•SVG & Public Folder – for static assets
+•JSON Used: package.json and package-lock.json (for configuration, not data storage)
+  
+
 ---
 
 ## 📦 How to Run Locally
